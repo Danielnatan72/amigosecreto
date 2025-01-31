@@ -34,7 +34,7 @@ Esse projeto foi criado e desenvolvido durante o Challenge Amigo Secreto do modu
 
 ## Layout ou Deploy da Aplicação :dash:
 
-> https://amigosecreto-alpha.vercel.app/
+> https://a-laysfonseca.github.io/amigosecreto/ ou https://amigosecreto-alpha.vercel.app/
 
 ## Pré-requisito
 Navegador
