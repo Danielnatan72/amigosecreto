@@ -34,7 +34,7 @@ Esse projeto foi criado e desenvolvido durante o Challenge Amigo Secreto do modu
 
 ## Layout ou Deploy da Aplicação :dash:
 
-> Vem ai!
+> amigosecreto-kdv3244sf-laysfonseca86-gmailcoms-projects.vercel.app!
 
 ## Pré-requisito
 Navegador
