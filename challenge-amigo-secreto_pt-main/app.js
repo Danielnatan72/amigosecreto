@@ -1,11 +1,10 @@
-// usuarios inserir nomes no campo de placeholder
+// usuarios podem inserir nomes no campo de texto
 let amigos = [];
 let lista = document.getElementById('listaAmigos');
 lista.innerHTML = '';
 for (let i = 0; i < amigos.length; i++){
     let item = document.createElement('li')
 }
-
 
 // adicionar nome na lista clicando em "adicionar"
 function adicionarAmigo(){
@@ -25,6 +24,7 @@ function adicionarAmigo(){
     console.log(nome);
 } 
 
+// inserir nome numa lista no HTML
 function AtualizarLista(){
     let lista = document.getElementById('listaAmigos')
     lista.innerHTML = '';
@@ -44,11 +44,6 @@ function sortearAmigo(){
     let amigosAleatorios = Math.floor(Math.random() * amigos.length);
     let amigoSorteado = amigos[amigosAleatorios];
     document.getElementById("resultado").innerHTML = `🎉 O amigo secreto é: <strong>${amigoSorteado}</strong>`;
-}
-
-// realizar sorteio aleatorio e determinar quem é o amigo secreto
-function sortearNomeAleatorio(){
-    return (Math.floor)(amigos)
 }
 
 // limpar o campo de entrada
