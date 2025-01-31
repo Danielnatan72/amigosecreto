@@ -44,7 +44,10 @@ function sortearAmigo(){
     let amigosAleatorios = Math.floor(Math.random() * amigos.length);
     let amigoSorteado = amigos[amigosAleatorios];
     document.getElementById("resultado").innerHTML = `🎉 O amigo secreto é: <strong>${amigoSorteado}</strong>`;
-}
+    amigos.splice(amigosAleatorios, 1);
+    AtualizarLista();
+} 
+
 
 // limpar o campo de entrada
 function limparCampo(){
